@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.jumbotron{
+    padding: 2rem;
+    background-color: #808080;
+    color: white;
+}
+
+section.footer{
+    background-color: gray;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.h1 {
+    text-decoration: underline solid #6f2da8;
+    text-underline-offset: 20%;
+}
+
+p.name {
+    font-size: 30px;
+    color: white;
+}
+
+a.title {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+}
+
+a.title:hover {
+    color: gray;
+}
+
+a.social-media-icon {
+    color: black;
+    
+}
+
+a.social-media-icon:hover {
+    color: #6f2da8;
+}
